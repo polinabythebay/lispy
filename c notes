@@ -1,0 +1,50 @@
+c notes
+
+C program
+
+only function definitions and structure defs
+
+source file: list of functions and types
+	you can call funs in other libraries/use other library data types
+
+explicit typing
+
+structs used to declare new types
+
+typedef struct {
+	
+	float x;
+	float y;
+}
+
+point p;
+
+p.x = 0.1;
+p.y = 10.0;
+
+Pointers
+
+pointer to an integer: int*
+
+pointer to pointers to a characters: char**
+
+Strings are represented by pointer type: char*
+	they are stored as list of chars
+	final char is null terminator
+
+
+Inside conditional statement's parenthesis any value that is not 0 is evaluated to true.
+
+A problem with C: portability
+hard to have my source code compile no matter where 
+mechanism: preprocessor
+	detects which operating system code is being compiled on
+
+anything with # is a preprocessor command; happens before the code is compiled
+
+
+
+
+
+
+
